@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gradienttext{
+  background: #FF4500;
+    background: linear-gradient(to right, #FF4500 0%, #4B23CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+:hover.gradienttext{
+  background: #4B23CF;
+    background: linear-gradient(to right, #4B23CF 0%, #FF4500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loader1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
